@@ -1,7 +1,8 @@
 // 4) Напишите функцию, которая принимает два числа. 
 // Каждую секунду необходимо выводить в консоль, начиная от первого и заканчивая вторым. Используйте setInterval.
 
-function printNumbers(from, to) {
+const printNumbers = (from, to) => {
+
   let current = from;
 
   let timerId = setInterval(function() {
@@ -12,6 +13,7 @@ function printNumbers(from, to) {
     }
     current++;
   }, 1000);
+  
 }
 
 printNumbers(5, 15);

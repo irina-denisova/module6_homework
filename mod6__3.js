@@ -2,10 +2,10 @@
 // которая также принимает число как аргумент
 // и возвращает сумму этих двух чисел. Выведите в консоль результат.
 
-function getSumma( num1 ) {
+const getSumma = (num1) => {
   
-  return function( num2 ) {
-    console.log( num1 + num2 );
+  return function(num2) {
+    console.log(num1 + num2);
   }
 }
 
