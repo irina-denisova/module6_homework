@@ -6,7 +6,7 @@
 
 const arr1 = [0, null, NaN, 0, 1, 2, 4, "str"];
 
-function calcTypeArrayElements( arr ) {
+const calcTypeArrayElements = arr => {
 
   let myMap = new Map();
   let odd = 0;
